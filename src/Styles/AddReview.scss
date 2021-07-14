@@ -1,0 +1,53 @@
+form {
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(241, 241, 228);
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+      
+      > * {
+        margin: 20px 50px;
+      }
+      
+      div {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      div input {
+        width: 200px;
+        height: 50px;
+      }
+      
+      input[type="submit"] {
+        width: 100px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        background-color: #ffe82f;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+      }
+      
+      textarea {
+        max-height: 200px;
+        max-width: 500px;
+        min-width: 200px;
+        min-height: 50px;
+      }   
+  }
+
+  .err-msg {
+    text-align: center;
+    color: rgb(158, 23, 23);
+  }

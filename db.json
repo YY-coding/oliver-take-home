@@ -33,6 +33,14 @@
       "body": "Would rent this dining room table one hundred times over.",
       "productId": "0",
       "id": 2
+    },
+    {
+      "author": "Yoda",
+      "star_rating": "3",
+      "headline": "worth the money",
+      "body": "Very comfortable and worth the money. Would recommend to friends for sure!",
+      "productId": "2",
+      "id": 3
     }
   ]
 }

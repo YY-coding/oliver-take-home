@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap");
+
+.products-container {
+  font-family: "Raleway", sans-serif;
+  width: 90%;
+  max-width: 1000px;
+  height: 100vh;
+  margin: 50px auto;
+  background-color: rgb(241, 241, 228);
+  border-radius: 10px;
+  overflow: scroll;
+  font-family: "Raleway", sans-serif;
+  padding-left: 0;
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  width: 300px;
+  margin: 50px auto;
+  height: 300px;
+  text-align: center;
+  border: #ffe82f solid 1px;
+  border-radius: 50%;
+  color: #ffe82f;
+  margin-bottom: 0;
+}
+
+.product-0 {
+  background-color: #3b1c39;
+}
+
+.product-1 {
+  background-color: #455066;
+}
+
+.product-2 {
+  background-color: #bda48d;
+}
+
+.product-3 {
+  background-color: #893e23;
+}
+
+.buttons-container button {
+  background-color: #ffe82f;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 50px 10px;
+  width: 150px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+}
+

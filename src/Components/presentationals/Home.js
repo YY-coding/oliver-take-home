@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Home.scss';
+import {Link} from 'react-router-dom'
+import '../../Styles/Home.scss';
 
 class Home extends React.Component {
   render() {
@@ -8,9 +9,9 @@ class Home extends React.Component {
           <img
             src="https://res.cloudinary.com/hwery4evq/image/upload/c_scale,w_400/v1/assets/toast"
             alt="welcome"/>
-          <h1>
-            Welcome!
-          </h1>
+         <Link to='/products'>
+          <h1>Click here to see my work</h1>
+        </Link>
 
           <h2>
             Oliver Space Take-Home Instructions
